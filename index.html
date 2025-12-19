@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Realtime AI Whiteboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Realtime AI Whiteboard 🚀</h1>
+  <canvas id="board"></canvas>
+  <div class="tools">
+    <button onclick="clearBoard()">Clear</button>
+    <button onclick="generateShape()">AI Shape</button>
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
